@@ -1,0 +1,18 @@
+.button {
+    /* margin-top: 1rem; */
+    padding: 5px;
+    width: fit-content;
+    border: 1px solid rgb(183, 183, 183);
+    height: 32px;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+@media screen and (max-width : 768px) {
+    .button {
+        width: 30%;
+    }
+}

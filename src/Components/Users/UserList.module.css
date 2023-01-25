@@ -1,0 +1,16 @@
+.user li {
+    border-bottom: 1px solid darkgrey;
+    padding: 15px;
+    padding-left: 0;
+    list-style-type: square;
+    margin: 0;
+}
+
+.user ul {
+    /* padding-left: 0; */
+}
+
+.user h4 {
+    padding: 0;
+    margin: 0;
+}
