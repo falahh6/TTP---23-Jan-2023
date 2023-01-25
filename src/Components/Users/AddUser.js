@@ -27,6 +27,8 @@ const AddUser = props =>{
             return;
         }
         props.onAddUser(Name , Age);
+        userInputName.current.value = '';
+        userInputAge.current.value ='';
     }
     const errorHandler = () =>{
         setError(null);
